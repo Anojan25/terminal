@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap cdn (5.1.3version)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts opensans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="login.css" />
+
+    <!-- js bundle cdn (5.1.3version) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fontawesome link-->
+    <script
+      src="https://kit.fontawesome.com/26c90e5362.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!--  -->
+  <body>
+    <div class="a1-main-container container-fluid">
+      <div class="a1-sub-container row">
+        <div class="a1-left-subcontainer col-lg-6">
+          <div class="a1-head-conta">
+           <img class="beta-img" src="images/logo beta.PNG" alt="beta" />
+           <h6 class="beta-head">BETA</h6>
+           <h1 class="terminal">Terminal</h1>
+          </div>
+          <p class="beta-para">
+            Welcome to this Beta version, providing you with access to market data across multiple exchanges as well as news and information tools
+          </p>
+          <a href="signup.html">
+          <div class="d-grid">
+            <button class="a1-login-button btn btn-lg">REGISTER NOW</button>
+          </div>
+          </a>
+        </div>
+
+      
+        <div class="col-lg-6">
+        <div class="a1-right-subcontainer">
+            <div class="right-center">
+            <h1 class="right-heading">Account Login</h1>
+          <form class="login-form-right row g-3" action="news.html" method="get" autocomplete="off">
+            <div class="col-md-12">
+              <label for="mail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="Username" style="font-style:italic" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="Password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="Password" placeholder="Password" style="font-style:italic" required >
+            </div>
+
+            <div class="col-md-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                required>
+                <div class="row">
+                <label class="col-auto me-auto form-check-label" id="label-form" for="gridCheck">
+                  Remember me.
+                </label>
+                  <a href="#" class="col-auto " id="forgot"> forgot a Password?</a>
+                </div>
+                
+              </div>
+            </div>
+            <a href="news.html" >
+            <div class="d-grid">
+              <button id="last-formbutton" class="a1-form-button btn btn-lg btn-primary" type="submit">
+                LOG IN
+              </button>
+            </div>
+          </a>
+            <label class="text-center">
+              Don't have an Account yet?<a href="signup.html" id="register"> Register</a>
+            </label>
+            
+          </form>
+          <h5>Sign up with</h5>
+          </div>
+          
+          <div class="a1-last-gridcontainer">
+            <a href="#">
+            <div class="facebook1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div></a>
+            <a href="#">
+            <div class="twitter1">
+              <i class="fa-brands fa-twitter"></i>
+            </div></a>
+            <a href="#">
+            <div class="windows1">
+              <i class="fa-brands fa-windows"></i>
+            </div></a>
+            <a href="#">
+            <div class="github1">
+              <i class="fa-brands fa-github"></i>
+            </div></a>
+            <a href="#">
+            <div class="google1">
+              <i class="fa-brands fa-google"></i>
+            </div></a>
+            <a href="#">
+            <div class="linkedin1">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div></a>
+          </div>
+      </div>
+      <p class="copyright text-center">Copyright © 2018, Coinvista AG,Gotthardstrasse 26, 6300, Zug, Switzerland</p>
+    </div>
+    </div>
+  </body>
+</html>
+
